@@ -50,7 +50,7 @@ struct Args {
 	#[clap(
 		short,
 		long,
-		default_value = "https://github.com/ga4gh-beacon/beacon-v2-Models/BEACON-V2-Model"
+		default_value = "https://github.com/aleixcanalda/beacon-v2-Models/BEACON-V2-Model"
 	)]
 	model: Url,
 
