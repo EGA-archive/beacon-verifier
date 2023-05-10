@@ -50,12 +50,12 @@ struct Args {
 	#[clap(
 		short,
 		long,
-		default_value = "https://github.com/EGA-archive/beacon-v2-Models/BEACON-V2-Model"
+		default_value = "https://github.com/ga4gh-beacon/beacon-v2/models/json/beacon-v2-default-model"
 	)]
 	model: Url,
 
 	/// Location of the framework
-	#[clap(short, long, default_value = "https://github.com/EGA-archive/beacon-framework-v2")]
+	#[clap(short, long, default_value = "https://github.com/ga4gh-beacon/beacon-v2/framework/json")]
 	framework: Url,
 
 	/// Url to the Beacon implementation
